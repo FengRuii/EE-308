@@ -10,7 +10,7 @@
 	(lib_symbols)
 	(text_box "EE 308: Analog Function Generator"
 		(exclude_from_sim no)
-		(at 104.14 15.24 0)
+		(at 99.06 25.4 0)
 		(size 92.71 12.7)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -32,7 +32,7 @@
 		(uuid "d9d3a6e8-2a13-4bf2-9aa4-67260a9a2e50")
 	)
 	(sheet
-		(at 180.34 106.68)
+		(at 120.65 107.95)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48,7 +48,7 @@
 		)
 		(uuid "021965a6-f98a-4f63-88e9-d91b75b6355d")
 		(property "Sheetname" "Sine Shaper"
-			(at 180.34 105.9684 0)
+			(at 120.65 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57,7 +57,7 @@
 			)
 		)
 		(property "Sheetfile" "sine_shaper.kicad_sch"
-			(at 180.34 145.3646 0)
+			(at 120.65 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 180.34 106.68 0)
+			(at 120.65 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +82,49 @@
 		)
 	)
 	(sheet
-		(at 180.34 49.53)
+		(at 189.23 107.95)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f7550dd-d6ac-403c-a02c-9350108d218a")
+		(property "Sheetname" "Front Panel"
+			(at 189.23 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "panel.kicad_sch"
+			(at 189.23 146.6346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ee308_kicad"
+				(path "/a3231158-6fd4-4190-9d01-56c0026ed088"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 50.8)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -98,7 +140,7 @@
 		)
 		(uuid "82c44f03-b803-45dd-9725-cd521cbce622")
 		(property "Sheetname" "Schmitt Trigger"
-			(at 180.34 48.8184 0)
+			(at 120.65 50.0884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,7 +149,7 @@
 			)
 		)
 		(property "Sheetfile" "schmitt_trigger.kicad_sch"
-			(at 180.34 88.2146 0)
+			(at 120.65 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,7 +166,7 @@
 		)
 	)
 	(sheet
-		(at 78.74 49.53)
+		(at 50.8 50.8)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -140,7 +182,7 @@
 		)
 		(uuid "88a04215-6888-4715-acfc-eedd1a2f0861")
 		(property "Sheetname" "Output Amplifier"
-			(at 78.74 48.8184 0)
+			(at 50.8 50.0884 0)
 			(show_name yes)
 			(effects
 				(font
@@ -150,7 +192,7 @@
 			)
 		)
 		(property "Sheetfile" "output_amplifier.kicad_sch"
-			(at 78.74 88.2146 0)
+			(at 50.8 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,7 +209,7 @@
 		)
 	)
 	(sheet
-		(at 78.74 106.68)
+		(at 50.8 107.95)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -183,7 +225,7 @@
 		)
 		(uuid "93462ddb-6bb8-40ca-ae98-854e1463eb3b")
 		(property "Sheetname" "Current Source Switcher"
-			(at 78.74 105.9684 0)
+			(at 50.8 107.2384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -192,7 +234,7 @@
 			)
 		)
 		(property "Sheetfile" "current_switcher.kicad_sch"
-			(at 78.74 145.3646 0)
+			(at 50.8 146.6346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -204,6 +246,48 @@
 			(project "ee308_kicad"
 				(path "/a3231158-6fd4-4190-9d01-56c0026ed088"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 189.23 50.8)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9625e82-47fe-4ade-8f5d-26f1d09a5db9")
+		(property "Sheetname" "Power"
+			(at 189.23 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 189.23 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ee308_kicad"
+				(path "/a3231158-6fd4-4190-9d01-56c0026ed088"
+					(page "6")
 				)
 			)
 		)

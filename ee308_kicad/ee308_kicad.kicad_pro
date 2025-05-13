@@ -628,6 +628,14 @@
     [
       "93462ddb-6bb8-40ca-ae98-854e1463eb3b",
       "Current Source Switcher"
+    ],
+    [
+      "b9625e82-47fe-4ade-8f5d-26f1d09a5db9",
+      "Power"
+    ],
+    [
+      "0f7550dd-d6ac-403c-a02c-9350108d218a",
+      "Front Panel"
     ]
   ],
   "text_variables": {}
